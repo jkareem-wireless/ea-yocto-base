@@ -19,6 +19,7 @@
 
   <remote name="EA"          fetch="https://github.com/embeddedartists"/>
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
+  <remote name="JK"      fetch="https://github.com/meta-ea"/>
 
 
   <project name="poky" remote="yp" path="sources/poky" revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
@@ -44,7 +45,7 @@
   <project name="meta-matter" remote="imx" path="sources/meta-matter" revision="imx_matter_2024_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="scarthgap-6.6.23-2.0.0" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="3bc2e42e112e6ca197f2561cc68464db26f74a93" >
+  <project remote="JK" name="meta-ea" path="sources/meta-ea" revision="3bc2e42e112e6ca197f2561cc68464db26f74a93" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dcc814d6dda04690d7ceaae95829909180fc0321" upstream="mickledore"/>
