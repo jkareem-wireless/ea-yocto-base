@@ -50,7 +50,7 @@
   <project remote="JK" name="meta-ea" path="sources/meta-ea" revision="ebf0b19cba562893be3ad5bb7e5045e2140becbc" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
-  <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="6f2944fa24973b071a3e73991d04a9e38bf8383f" upstream="scarthgap"/>
+  <project remote="JK" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="6f2944fa24973b071a3e73991d04a9e38bf8383f" upstream="scarthgap"/>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ffd3a8d379820e6eae80ff83a2c0aa7af0ea15f1" />
 
